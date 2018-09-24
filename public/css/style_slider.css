@@ -1,0 +1,32 @@
+.slider-item-content{
+    width: 99%;
+    margin: 0 auto;
+}
+
+.slider{
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 10px #888888;
+}
+
+.owl-carousel{
+    margin-bottom: 50px;
+}
+
+.owl-carousel .item-product-slider{
+    height: 420px;
+    text-align: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.owl-item-title{
+    top: 50%;
+    font-size: 0.5em;
+}
+
+.owl-item .price{
+    bottom: 1%;
+    color: red;
+    font-size: 0.7em;
+}

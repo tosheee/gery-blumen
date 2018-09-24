@@ -1,0 +1,73 @@
+
+
+.modal-contact-forma-c {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    padding-top: 8%;
+    left: 0;
+    top: 0;
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content-contact-form {
+    width: 65%;
+    background-color: #fcdcd2;
+    margin: auto;
+    padding: 0 3% 0 3%;
+    border-radius: 10px;
+    border: 1px solid #888;
+
+}
+
+.modal-contact-forma-c .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.modal-contact-forma-c .close:hover,.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.modal-contact-forma-c .dark #contact_form input[type=text], .dark #contact_form textarea, .dark #contact_form input[type=email]{
+    font-size:15px;
+    margin-bottom:20px;
+    color: #ffffff !important;
+    border:none;
+    border:solid 1px #555;
+    background:rgba(0,0,0,0.3);
+    border-radius: 10px !important;
+}
+
+.modal-contact-forma-c #contact_form input[type=submit]{
+    color: #ffffff;
+    background:#2ab27b;
+}
+
+.modal-contact-forma-c #contact_form input[type=submit]:hover{
+    background:#2ab27b;
+}
+
+
+.modal-contact-forma-c #contact_form input{
+    border-radius: 5px;
+}
+
+.modal-contact-forma-c #contact_form textarea{
+    border-radius: 5px;
+    height:90px;
+}

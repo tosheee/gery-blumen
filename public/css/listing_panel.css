@@ -1,0 +1,36 @@
+#grid-selector{
+    height: 10px;
+    width: 90%;
+    padding: 20px 20px 40px 20px;
+    float: left;
+    color: #5d5f68;
+    font-size: 14px;
+}
+
+#grid-menu{
+    float:right;
+    width:105px;
+}
+
+#grid-menu ul{
+    width: 65px;
+    float: right;
+    position: relative;
+    top: -1px;
+}
+
+#grid-menu li{
+    margin:3px;
+    float:right;
+    width:25px;
+    height:25px;
+    list-style:none;
+}
+
+#grid-menu li a{
+    width:25px;
+    height:25px;
+    /*background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/grid-menu.png") 0 0  no-repeat;*/
+}
+
+#grid-menu li a.active{ color: red }

@@ -1,0 +1,200 @@
+
+.basic-grey {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 100%;
+    background: #F3F3F3;
+    font-family: Raleway,sans-serif;
+    box-shadow: 10px 10px 10px 10px;
+    padding: 25px 15px 25px 10px;
+
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.basic-grey h1>span {
+    color: #636b6f;
+    display: block;
+    font-size: 14px;
+}
+.basic-grey label {
+    color: #636b6f;
+    font-size: 14px;
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #636b6f;
+    font-size: 14px;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 16px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea{
+    padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+    color: #636b6f;
+    font-size: 14px;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+.basic-grey .button:hover {
+    background: #CF7A7A
+}
+
+/*image selections*/
+.imgareaselect-border1 {
+    background: url(border-v.gif) repeat-y left top;
+}
+
+.imgareaselect-border2 {
+    background: url(border-h.gif) repeat-x left top;
+}
+
+.imgareaselect-border3 {
+    background: url(border-v.gif) repeat-y right top;
+}
+
+.imgareaselect-border4 {
+    background: url(border-h.gif) repeat-x left bottom;
+}
+
+.imgareaselect-border1, .imgareaselect-border2,
+.imgareaselect-border3, .imgareaselect-border4 {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-handle {
+    background-color: #fff;
+    border: solid 1px #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-outer {
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.imgareaselect-selection {
+}
+
+.custom-radios div {
+    display: inline-block;
+}
+.custom-radios input[type="radio"] {
+    display: none;
+}
+.custom-radios input[type="radio"] + label {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.custom-radios input[type="radio"] + label span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 20px;
+}
+.custom-radios input[type="radio"] + label span i {
+    top: -5px;
+    opacity: 0;
+    font-size: 40px;
+}
+
+.custom-radios input[type="radio"]#product-color-green + label span {
+    background-color: #2ecc71;
+}
+.custom-radios input[type="radio"]#product-color-blue + label span {
+    background-color: #3498db;
+}
+.custom-radios input[type="radio"]#product-color-yellow + label span {
+    background-color: #f1c40f;
+}
+.custom-radios input[type="radio"]#product-color-red + label span {
+    background-color: #e74c3c;
+}
+.custom-radios input[type="radio"]#product-color-white + label span {
+    background-color: #ffffff;
+}
+.custom-radios input[type="radio"]#product-color-pink + label span {
+    background-color: #ffa4bb;
+}
+.custom-radios input[type="radio"]#product-color-orange + label span {
+    background-color: #f16c1d;
+}
+.custom-radios input[type="radio"]#product-color-purple + label span {
+    background-color: #c11fe7;
+}
+.custom-radios input[type="radio"]#product-color-grey + label span {
+    background-color: #9ea3ac;
+}
+.custom-radios input[type="radio"]#product-color-brown + label span {
+    background-color: rgba(106, 28, 8, 0.70);
+}
+.custom-radios input[type="radio"]#product-color-black + label span {
+    background-color: #000000;
+}
+
+.custom-radios input[type="radio"]:checked + label span i {
+    opacity: 1;
+    margin: -8px -9px -9px -9px;
+    width: 40px;
+}

@@ -1,0 +1,36 @@
+footer#footer-content {
+    z-index: 100;
+    padding: 50px 0 20px 0;
+    color: #878c94;
+    background-color: #00193A;
+}
+
+footer#footer-content .title{text-align: left;color:#fff;font-size:25px;}
+
+footer#footer-content .social-icon{padding:0px;margin:0px;}
+footer#footer-content .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+footer#footer-content .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+footer#footer-content .acount-icon .fa{margin-right:25px;}
+
+footer#footer-content .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+
+footer#footer-content .payment{margin:0px;padding:0px;list-style-type:none}
+footer#footer-content .payment li{list-style-type:none}
+footer#footer-content .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
