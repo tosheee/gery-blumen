@@ -105,6 +105,7 @@ class ProductsController extends Controller
         $subCategoryName = SubCategory::find($request->input('sub_category_id'))->name;
 
         $product = new Product;
+
         $product->category_id     = $request->input('category_id');
         $product->sub_category_id = $request->input('sub_category_id');
         $product->identifier      = preg_replace('/\s+/', '_', mb_strtolower($subCategoryName));
@@ -112,7 +113,7 @@ class ProductsController extends Controller
         $product->sale            = $request->input('sale');
         $product->recommended     = $request->input('recommended');
         $product->best_sellers    = $request->input('best_sellers');
-        $product->product_color   = $request->input('product_color');
+        //$product->product_color   = $request->input('product_color');
         $product->description     = $description;
         $product->save();
 
@@ -193,7 +194,7 @@ class ProductsController extends Controller
         $product->sale            = $request->input('sale');
         $product->recommended     = $request->input('recommended');
         $product->best_sellers    = $request->input('best_sellers');
-        $product->product_color   = $request->input('product_color');
+        //$product->product_color   = $request->input('product_color');
         $product->description     = $description;
         $product->save();
 

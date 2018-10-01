@@ -12,8 +12,6 @@ class ImagesHelper{
         if(!isset(DB::table('products')->latest('id')->first()->id))
         {
             $product = new Product;
-            $product->user_id = 1;
-            $product->seller_id = 1;
             $product->category_id     = 1;
             $product->sub_category_id = 1;
             $product->identifier      = '';
